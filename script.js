@@ -14275,7 +14275,7 @@ let PAYS = [
         "translations": {
             "de": null,
             "es": "Kosovo",
-            "fr": null,
+            "fr": "Kosovo",
             "ja": null,
             "it": null,
             "br": "Kosovo",
