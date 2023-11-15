@@ -19594,6 +19594,6 @@ let PAYS = [
 ];
 
 $(".truc").text("salut")
-PAYS.forEach((item) => {
-    $("#pays").append(`<option value=${item.alpha2Code}>${item.translations.fr}</option>`);
-})
+for (const item of PAYS) {
+    $("#pays").append(`<option value=${item.alpha2Code} ${(item.alpha2Code == 'FR')? 'selected' : ''}>${item.translations.fr}</option>`);
+}
